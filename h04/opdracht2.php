@@ -25,7 +25,5 @@ function delen($a){
 }
 
 ?>
-<a href="Opdrachten.php">Opdrachten Pagina</a><br>
-<a href="">Home</a>
 </body>
 </html>

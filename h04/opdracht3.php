@@ -16,7 +16,5 @@ function keerom($a){
 echo keerom("Dit was best moeilijk")."<br>"
 
 ?>
-<a href="">Opdrachten Pagina</a><br>
-<a href="">Home</a>
 </body>
 </html>

@@ -10,13 +10,11 @@
 </head>
 <body>
 <?php
-function keerom($a){
-    return strrev($a);
-}
-echo keerom("Dit was best moeilijk")."<br>"
+echo "graden in fahrenheit: ".fahrenheit(20). "<br>";
 
+function fahrenheit($a){
+    return $a * 1.8 + 32;
+}
 ?>
-<a href="">Opdrachten Pagina</a><br>
-<a href="">Home</a>
 </body>
 </html>

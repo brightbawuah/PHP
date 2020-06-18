@@ -6,6 +6,6 @@ if(isset($_SESSION["gebruiker"]) && $_SESSION["gebruiker"]["rol"] == "administra
     echo "<p><a href=\"login.html\">uitloggen</a></p>";
 } else {
     echo "<h1>U heeft niet voldoende rechten voor deze pagina.</h1>";
-    echo "<p><a href=\"Login.html\">terug naar de login pagina</a></p>";
+    echo "<p><a href=\"login.html\">terug naar de login pagina</a></p>";
 }
 

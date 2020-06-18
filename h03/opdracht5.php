@@ -2,7 +2,7 @@
 $leeftijd = 9;
 $bedrag = 10;
 
-//Mensen boven de 65 en 12 en onder 50% korting geven
+//Mensen boven de 65 of 12 en onder 50% korting geven
 if ($leeftijd > 65 || $leeftijd <= 12){
     $bedrag = $bedrag * 0.5;
 }

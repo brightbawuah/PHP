@@ -19,9 +19,9 @@ if (isset($_POST['knop'])
     $message = "<h2>Welkom " . $_SESSION["gebruiker"]["naam"]." op de website met de rol "
         .$_SESSION["gebruiker"]["rol"]."</h2>";
     echo $message;
-    echo "<p></p><a href=\"Admin.php\">Beveiligde pagina</a></p>";
-    echo "<p><a href=\"Login.html\">uitloggen</a></p>";
+    echo "<p></p><a href=\"admin.php\">Beveiligde pagina</a></p>";
+    echo "<p><a href=\"login.html\">uitloggen</a></p>";
 } else {
     echo "<h1>Email en/of wachtwoord klopt niet !</h1>";
-    echo "<h3><a href='Login.html'>Inloggen</a></h3>";
+    echo "<h3><a href='login.html'>Inloggen</a></h3>";
 }
