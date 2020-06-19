@@ -1,7 +1,5 @@
 <?php
 
-//print_r($_GET);
-
 if ($_POST['voornaam'] == ""){
     echo "Je moet nog een naam invullen!";
     echo "<a href=\"formulier.html\">Terug naar het formulier</a>";

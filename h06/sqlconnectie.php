@@ -13,6 +13,7 @@
 </head>
 <body>
 <?php
+// inloggegevens sql database en op welke sever je zit
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -30,8 +31,8 @@ catch (PDOException $e)
 
 
 $query = "SELECT * from cursist";
-$stmt = $conn->prepare($query) or die('Error 19');
-$stmt->execute() or die('Error 21');
+$stmt = $conn->prepare($query) or die('Error 34');
+$stmt->execute() or die('Error 35');
 echo '<table>';
 while ($array = $stmt->fetch()) {
     echo '<tr>';
