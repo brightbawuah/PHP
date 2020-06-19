@@ -30,7 +30,7 @@ catch (PDOException $e)
 }
 
 
-$query = "SELECT * from cursist";
+$query = "SELECT * FROM cursist";
 $stmt = $conn->prepare($query) or die('Error 34');
 $stmt->execute() or die('Error 35');
 echo '<table>';
